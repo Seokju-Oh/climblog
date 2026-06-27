@@ -153,11 +153,6 @@ main {
   gap: 12px;
 }
 
-.heatmap-card h2 {
-  font-size: 1.45rem;
-  line-height: 1.1;
-}
-
 .heatmap-card-header p,
 .panel-header p {
   margin-top: 4px;
@@ -312,6 +307,7 @@ textarea:focus-visible {
   background: rgba(24, 26, 25, 0.94);
 }
 
+.heatmap-card h2,
 .panel h2 {
   font-size: 1.05rem;
   line-height: 1.2;
@@ -591,9 +587,13 @@ body.read-only .content-grid {
 
 @media (max-width: 430px) {
   :root {
-    --cell: 10px;
-    --cell-gap: 3px;
-    --label-width: 30px;
+    --cell: 8px;
+    --cell-gap: 2px;
+    --label-width: 26px;
+  }
+
+  .heatmap-card {
+    padding: 12px;
   }
 
   .heatmap-card-header {
