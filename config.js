@@ -1,5 +1,5 @@
 "use strict";
 
 window.CLIMBLOG_CONFIG = {
-  apiUrl: "https://climblog-sample-api.sooahnshin.workers.dev"
+  apiUrl: "https://climblog-api.seokjuoh.workers.dev"
 };
